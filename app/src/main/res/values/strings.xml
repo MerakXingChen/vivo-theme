@@ -1,29 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MIUI 主题工具</string>
-    <string name="usage">使用说明：\n<b>[1.] 打开文件管理器，复制主题文件至 SD 卡根目录.\n\t（SD 卡根目录即为 “内部储存设备”）</b>\n[2.] 点击按钮，选择你复制的主题.\n[3.] 点击 “应用主题” 按钮.</string>
-    <string name="open_fileManager">1. 打开文件管理器</string>
-    <string name="choose_file">2. 选择文件</string>
-    <string name="apply_theme">3. 应用主题</string>
-    <string name="not_mtz_file">你选择的不是主题（mtz）文件</string>
-    <string name="ensure_mtz">请确保该文件在根目录下，否则无效</string>
-    <string name="no_Choose_File">未选择有效文件，请先选择文件</string>
-    <string name="getThemeDownloadLink">主题下载直链获取</string>
-    <string name="themeShareLink">MIUI 主题分享链接</string>
-    <string name="bt_getThemeDownloadLink">获取信息 / 下载文件</string>
-    <string name="themeWebsite">主题资源分享</string>
-    <string name="warning_vpn">警告：大部分站点需要爬墙</string>
-    <string name="officialThemeStore">小米主题商店</string>
-    <string name="miuithemes_tk">MIUIThemes.TK</string>
-    <string name="techruchi_com">techruchi.com</string>
-    <string name="miui_themes_xiaomis">MIUI Themes Xiaomis</string>
-    <string name="miui_themez">Miui Themez</string>
-    <string name="ifDefault">若出现主题恢复默认的情况，\n可先卸载 “主题商店” 的更新，\n再先按上方的步骤重新应用主题，\n并使用 “冰箱” 一类的 app 冻结 “主题商店”</string>
-    <string name="iceboxCoolapk">酷安 “冰箱” app</string>
-    <string name="adv_usage">你也可以在下方手动输入主题文件的位置.（手动应用）</string>
-    <string name="theme_path">[手动] 主题文件路径</string>
-    <string name="adv_Apply">[手动] 应用</string>
-    <string name="input_isEmpty">路径为空或不是主题（mtz）文件</string>
-    <string name="github_openSource">GitHub 开源</string>
-    <string name="app_howWorking">App 原理</string>
-    <string name="coolapk_me">酷安 @Yaong</string>
+    <string name="app_name">Payload Dumper</string>
+    <string name="ota_url">OTA URL</string>
+    <string name="parse">Parse</string>
+    <string name="parse_message">Start Parsing</string>
+    <string name="parse_success_message">Parsing Successful</string>
+    <string name="url_error_message">URL is empty or in incorrect format</string>
+    <string name="ota_info">OTA Info</string>
+    <string name="image_list">Image List</string>
+    <string name="image_info">Image Details</string>
+    <string name="image_name">Image Name</string>
+    <string name="image_size">Image Size</string>
+    <string name="raw_size">Uncompressed Size</string>
+    <string name="image_sha256">SHA256</string>
+    <string name="start_dump_message">Start Dump</string>
+    <string name="dump">Dump</string>
+    <string name="dump_success_message">Dump Successful: %s</string>
+    <string name="done">Done</string>
+    <string name="about_dialog_title">About</string>
+    <string name="source_code">Source Code:&#160;</string>
+    <string name="developer">Developer:&#160;</string>
+    <string name="author">rcmiku</string>
+    <string name="app_info">Dump Android Payload from OTA URL</string>
+    <string name="file_size">File Size</string>
+    <string name="security_patch_level">Security Patch Level</string>
+    <string name="file_name">File Name</string>
+    <string name="from_local">From Local</string>
+    <string name="from_url">From URL</string>
+    <string name="input">Input</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="storage_permission_required">Grant all files access permission</string>
+    <string name="permission_summary">Manage external storage permission is required to parse the local OTA package and custom file save folder</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="search">Search</string>
+    <string name="custom_user_agent_setting">Custom User-Agent Setting</string>
+    <string name="custom_user_agent">Custom User-Agent</string>
+    <string name="clear">Clear</string>
+    <string-array name="dropdownOptions">
+        <item>Custom User-Agent</item>
+        <item>Custom File Save Folder</item>
+        <item>About</item>
+    </string-array>
 </resources>

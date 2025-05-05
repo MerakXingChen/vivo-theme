@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Payload Dumper</string>
+    <string name="ota_url">OTA 链接</string>
+    <string name="parse">解析</string>
+    <string name="parse_message">开始解析</string>
+    <string name="parse_success_message">解析成功</string>
+    <string name="url_error_message">URL 为空或格式错误</string>
+    <string name="ota_info">OTA 信息</string>
+    <string name="image_list">镜像列表</string>
+    <string name="image_info">镜像详情</string>
+    <string name="image_name">镜像名称</string>
+    <string name="image_size">镜像大小</string>
+    <string name="raw_size">未解压大小</string>
+    <string name="image_sha256">SHA256</string>
+    <string name="start_dump_message">开始提取</string>
+    <string name="dump">提取</string>
+    <string name="dump_success_message">提取成功：%s</string>
+    <string name="done">已提取</string>
+    <string name="about_dialog_title">关于</string>
+    <string name="source_code">源代码：</string>
+    <string name="developer">开发者：</string>
+    <string name="author">rcmiku</string>
+    <string name="app_info">Dump Android Payload from OTA URL</string>
+    <string name="file_size">文件大小</string>
+    <string name="security_patch_level">安全补丁等级</string>
+    <string name="file_name">文件名</string>
+    <string name="from_local">本地</string>
+    <string name="from_url">链接</string>
+    <string name="input">输入</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="storage_permission_required">授予所有文件的管理权限</string>
+    <string name="permission_summary">自定义文件保存目录和解析本地 OTA 包需要所有文件访问权限</string>
+    <string name="permission_granted">权限已授予</string>
+    <string name="permission_not_granted">权限未授予</string>
+    <string name="search">搜索</string>
+    <string name="custom_user_agent_setting">自定义UA设置</string>
+    <string name="custom_user_agent">自定义UA</string>
+    <string name="clear">清除</string>
+    <string-array name="dropdownOptions">
+        <item>自定义UA</item>
+        <item>自定义文件保存目录</item>
+        <item>关于</item>
+    </string-array>
+</resources>
